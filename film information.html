@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<title> CinemaScope </title>
+		
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<style>
+			
+		p {
+			text-align: center;
+		}
+
+		img {
+			height: 250px;
+			width: 250px;
+		}
+		
+		@media screen and (max-width: 1920px) and (min-width: 1200px){
+			.one {
+				text-align: center;
+				margin-right: 50px;
+				margin-left: 10px;
+			}
+		}
+		
+		@media screen and (max-width: 1099px) and (min-width: 601px){
+			.one {
+				text-align: center;
+				display: inline-block;
+				margin-left: 10px;
+			}
+			#two {
+				text-align: center;
+				display: inline-block;
+			}
+			.column{
+				float: left;
+				width: 50%;
+			}
+		}
+		
+		@media screen and (max-width: 600px) {
+		  .topnav a:not(:first-child) {display: none;}
+		  .topnav a.icon {
+			float: right;
+			display: block;
+		  }
+			.one {
+				text-align: center;
+				margin-right: 50px;
+				margin-left: 10px;
+				display: inline;
+			}
+		}
+		
+		.column:nth-child(2){
+			display:inline;
+		}
+		
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<ul>
+			<div class="topnav" id="myTopnav">
+				<li> <div id="title"> CinemaScope </div> <br> </li>
+				<li><a href="index.html"> Homepage </a></li>
+				<li><a href="film information.html"> Film Information </a></li>
+				<li><a href="showing times.html"> Showing Times </a></li>
+				<li><a href="contact us.html"> Contact Us </a></li>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</ul>
+		
+		<br>
+		
+		<h1> Film Information </h1>
+		
+		<div class="row">
+		
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/Spiral.jpg" alt="Spiral"> </a> <br> Spiral </p> </div>
+			</div>
+			
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/Parasite.jpg" alt="Parasite"> </a> <br> Parasite </p> </div>
+			</div>
+			
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/Stowaway.png" alt="Stowaway"> </a> <br> Stowaway </p> </div>
+			</d
+			
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/Safety.jpg" alt="Safety"> </a> <br> Safety </p> </div>
+			</div>
+			
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/The_Courier.jpeg" alt="The Courier"> </a> <br> The Courier </p> </div>
+			</div>
+			
+			<div class="column">
+				<div class="one"> <p> <a href="film%20description.html"> <img src="media/Oxygen.jpg" alt="Oxygen"> </a> <br> Oxygen </p> </div>
+			</div>
+			
+		</div>
+		
+		<br> <br> <br> <br>
+		<div id="footercenter">
+			<div id="footer">
+				<footer>&copy; CinemaScope 2021 </footer>
+			</div>
+		</div>
+		<br>
+		
+	</body>
+	
+</html>
